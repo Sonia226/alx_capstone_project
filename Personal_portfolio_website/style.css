@@ -1,4 +1,5 @@
-* {
+* 
+{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -302,7 +303,21 @@ header.sticky {
 .box video {
   width: 100%;
   object-fit: cover;
+  height: auto;
+  border-radius: 28px;
 }
+
+.clip {
+  width: 50cm; 
+  height: auto; 
+}
+
+
+.image {
+  max-width: 200px; 
+  height: auto; 
+}
+
 /* End of Project */
 
 /* Start of Contact */
