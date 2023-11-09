@@ -5,13 +5,13 @@ window.addEventListener("scroll", function () {
 })
 
 const sclip = document.querySelectorAll('.clip');
-for (let i = 0; i < clip.length; i++) {
-    clip[i].addEventListener('mouseenter',
+for (let i = 0; i < sclip.length; i++) {
+    sclip[i].addEventListener('mouseenter',
         function (e) {
-            clip[i].play()
+            sclip[i].play()
         })
-    clip[i].addEventListener('mouseout',
+    sclip[i].addEventListener('mouseout',
         function (e) {
-            clip[i].pause()
+            sclip[i].pause()
         })
 }
